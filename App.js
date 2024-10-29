@@ -1,10 +1,20 @@
-import { Text, View } from 'react-native';
+import Login  from './src/screens/login/login.jsx';
+import Account from './src/screens/account/account.jsx';
+
+
 
 export default function App() {
-  return (
-    <View>
-      <Text>Jornada JS</Text>
-    </View>
+  return(
+
+    // <Login/>
+    <Account/>
+
+
   );
+
+
+   
+    
+   
 }
 
